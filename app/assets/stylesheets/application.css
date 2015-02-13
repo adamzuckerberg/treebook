@@ -13,3 +13,15 @@
  *= require_tree .
  *= require_self
  */
+
+.navbar
+{
+    background-color: black;
+}
+.status .admin {
+	display: none;
+}
+
+.status.hover .admin {
+	display: inline;
+}
